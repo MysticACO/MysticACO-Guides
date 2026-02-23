@@ -1,20 +1,395 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <meta charset="UTF-8" />
-  <title>Mystic ACO Guides</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+  <title>Mystic ACO Guides</title>
+
+  <!-- Docsify theme (base) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
+
+  <style>
+    :root { --theme-color: #7c3aed; }
+
+    /* Dark background */
+    body { background-color: #0f1115; font-size: 13px !important; }
+
+    /* Content panel */
+    .markdown-section {
+      background: #161a22;
+      padding: 28px;
+      border-radius: 14px;
+      font-size: 13px !important;
+    }
+
+    /* Global text color */
+    .markdown-section p,
+    .markdown-section li,
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3 {
+      color: #e6e6e6;
+    }
+
+    /* Permanent horizontal line across entire page */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 80px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-color: #2a2f3a;
+      z-index: 999;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background-color: #0b0d12 !important;
+      border-right: none !important;
+      padding: 20px 15px !important;
+    }
+
+    .sidebar-nav { padding: 0 !important; margin: 0 auto !important; }
+    .sidebar-nav ul { padding: 0 !important; margin: 0 !important; }
+    .sidebar-nav li { margin: 4px 0 !important; padding: 0 !important; line-height: 1.4 !important; }
+
+    /* Sidebar links */
+    .sidebar ul li a { color: #cfcfcf; }
+
+    .sidebar-nav li a {
+      display: block;
+      padding: 6px 10px;
+      margin: 0;
+      border-radius: 6px;
+      transition: background-color 0.2s ease;
+      font-size: 14px !important;
+      line-height: 1.4 !important;
+    }
+
+    .sidebar-nav li a:hover {
+      background-color: rgba(124, 58, 237, 0.12) !important;
+      text-decoration: none !important;
+    }
+
+    /* Active sidebar link */
+    .sidebar-nav li.active > a {
+      color: #7c3aed !important;
+      background-color: transparent !important;
+      border-right: none !important;
+      font-weight: 600 !important;
+    }
+
+    /* Make all site content font smaller */
+    .content { font-size: 13px !important; }
+
+    /* ===== Alert Boxes ===== */
+    .alert {
+      padding: 16px 18px;
+      margin: 18px 0;
+      border-radius: 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      color: #e8e8e8 !important;
+    }
+
+    .danger  { background: #2a1a1a !important; border-left: 7px solid #ff2d2d; }
+    .warning { background: #2a2415 !important; border-left: 7px solid #ffb300; }
+    .info    { background: #16232e !important; border-left: 7px solid #2196f3; }
+    .success { background: #16261c !important; border-left: 7px solid #2ecc71; }
+
+    .alert h1, .alert h2, .alert h3 { color: #fff !important; }
+
+    /* ===== Cards ===== */
+    .card {
+      background: #1b2029 !important;
+      border-radius: 14px;
+      padding: 20px;
+      margin: 20px 0;
+      border: 1px solid #2a2f3a !important;
+      box-shadow: 0 10px 28px rgba(0,0,0,.18);
+      color: #e8e8e8 !important;
+    }
+
+    .card h1, .card h2, .card h3 { color: #fff !important; }
+
+    /* ===== Checklists ===== */
+    .checklist, .donot { list-style: none; padding-left: 0; margin: 10px 0 0 0; }
+    .checklist li, .donot li {
+      margin: 8px 0;
+      padding-left: 26px;
+      position: relative;
+      color: #d6d6d6 !important;
+    }
+
+    .checklist li::before {
+      content: "✔";
+      color: #2ecc71;
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+    }
+
+    .donot li::before {
+      content: "✖";
+      color: #ff2d2d;
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+    }
+
+    /* ===== Pagination Styling ===== */
+    .pagination-link,
+    .pagination-title { color: #e6e6e6 !important; opacity: 1 !important; }
+
+    .pagination-item {
+      position: relative;
+      cursor: pointer;
+      background: #161a22;
+      border: 1px solid #2a2f3a;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.20);
+      padding: 32px 40px;
+      width: 50%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      font-family: inherit;
+      border-radius: 12px;
+      margin: 0;
+      text-align: right;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .pagination-item:hover {
+      box-shadow: 0 10px 28px rgba(0,0,0,0.30);
+      transform: translateY(-2px);
+    }
+
+    .pagination-item:last-child {
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .pagination-item a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      color: inherit;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+
+    .pagination-container {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      margin-top: 32px;
+      width: 100%;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 16px;
+    }
+
+    .pagination-item .pagination-title {
+      font-size: 11px !important;
+      margin-bottom: 4px;
+    }
+
+    .pagination-item .pagination-link {
+      font-size: 12px !important;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .pagination-item .pagination-link:hover { color: #7c3aed !important; }
+    .pagination-item .pagination-arrow { font-size: 24px; color: #cfcfcf; margin-right: 12px; }
+/* ===== GitBook-ish layout & typography ===== */
+:root {
+  --theme-color: #7c3aed;
+
+  /* spacing + radius */
+  --base-font-size: 14px;
+  --base-line-height: 1.75;
+  --content-max-width: 860px;
+
+  /* typography */
+  --base-font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  --heading-font-family: var(--base-font-family);
+
+  /* surfaces (GitBook-like) */
+  --background: #0f1115;
+  --sidebar-background: #0b0d12;
+  --content-background: #141824;
+
+  --border-color: rgba(255,255,255,.10);
+  --muted-text: rgba(255,255,255,.72);
+
+  --code-background: rgba(255,255,255,.06);
+}
+
+/* Page background */
+body {
+  background: var(--background) !important;
+  font-family: var(--base-font-family) !important;
+}
+
+/* Content panel */
+.markdown-section {
+  max-width: var(--content-max-width) !important;
+  margin: 18px auto !important;
+  background: var(--content-background) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 14px !important;
+  padding: 28px !important;
+}
+
+/* Headings like GitBook */
+.markdown-section h1 {
+  font-size: 38px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.6px !important;
+  margin-bottom: 10px !important;
+}
+.markdown-section h2 {
+  font-size: 20px !important;
+  font-weight: 750 !important;
+  margin-top: 34px !important;
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+.markdown-section p,
+.markdown-section li {
+  color: rgba(255,255,255,.86) !important;
+}
+.markdown-section p { line-height: 1.75 !important; }
+.markdown-section small,
+.markdown-section .muted { color: var(--muted-text) !important; }
+
+/* Sidebar (clean + GitBook-ish) */
+.sidebar {
+  background: var(--sidebar-background) !important;
+  border-right: 1px solid var(--border-color) !important;
+}
+.sidebar ul li a {
+  color: rgba(255,255,255,.78) !important;
+  border-radius: 8px !important;
+}
+.sidebar ul li a:hover {
+  background: rgba(124,58,237,.12) !important;
+}
+.sidebar ul li.active > a {
+  color: #fff !important;
+  background: rgba(124,58,237,.18) !important;
+  font-weight: 650 !important;
+}
+
+/* Links */
+.markdown-section a {
+  color: #c7b6ff !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(199,182,255,.35);
+}
+.markdown-section a:hover {
+  border-bottom-color: rgba(199,182,255,.75);
+}
+
+/* Code blocks */
+.markdown-section pre,
+.markdown-section code {
+  background: var(--code-background) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 10px !important;
+}
+
+/* Tables like GitBook */
+.markdown-section table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  overflow: hidden !important;
+  border-radius: 12px !important;
+  border: 1px solid var(--border-color) !important;
+}
+.markdown-section th {
+  background: rgba(255,255,255,.06) !important;
+  color: rgba(255,255,255,.88) !important;
+  font-weight: 700 !important;
+}
+.markdown-section td {
+  color: rgba(255,255,255,.82) !important;
+}
+.markdown-section th, .markdown-section td {
+  padding: 12px 14px !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+.markdown-section tr:last-child td { border-bottom: none !important; }
+
+/* Your card/alert look can stay (works well with GitBook style) */
+.card, .alert {
+  border: 1px solid var(--border-color) !important;
+}
+  </style>
 </head>
+
 <body>
-  <div id="app">Loading…</div>
+  <div id="app">Loading...</div>
+
   <script>
     window.$docsify = {
+      name: 'Mystic ACO Guides',
+      repo: '',
       loadSidebar: true,
       subMaxLevel: 2,
-      themeColor: '#42b983'
+      auto2top: true,
+
+      // If you want a logo, replace this URL:
+      // logo: 'https://i.imgur.com/your-image-url.png',
+
+      // Search
+      search: {
+        placeholder: 'Search...',
+        noData: 'No results found.',
+        depth: 3
+      },
+
+      // Announcement banner (requires plugin script below)
+      announcement: {
+        content: '⚡ Make sure IMAP is configured BEFORE submitting an ACO form to avoid failed checkouts.',
+        backgroundColor: '#7c3aed',
+        textColor: '#fff'
+      },
+
+      // Pagination plugin options (optional)
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true,
+        crossChapterText: true
+      }
     };
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+  <!-- Docsify core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/toc.min.js"></script>
+
+  <!-- Announcement plugin (required for banner) -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-plugin/announcement.min.js"></script>
+
 </body>
 </html>

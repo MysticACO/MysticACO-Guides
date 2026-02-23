@@ -35,10 +35,10 @@ If your slot hits, you'll receive a confirmation email and have 48 hours to comp
 
 
 ## Our Services
-- Navi ACO operates from the use of "bot" software that automates the checkout process for products highly sought after from retailers like Target, Walmart, BestBuy.
-- Provides an advantage to customers...
-- Information required includes account login, payment, billing, name, phone, email.
-- The software checks out faster than humans.
+- 
+-
+-
+-
 
 ---
 
@@ -46,12 +46,3 @@ If your slot hits, you'll receive a confirmation email and have 48 hours to comp
 1. Prior to scheduled releases...
 2. If product(s) desired are listed...
 
-
-
-
-# how-it-works.md
-# terms-of-service.md
-# faq.md
-# how-to-jig.md
-# Virtual-Cards.md
-# IMAP-Tutorial.md
