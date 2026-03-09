@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🔮 How It Works](README.md)
-* [Virtual-cards](Virtual-cards.md)
+* [Virtual Cards (VCC's)](Virtual-cards.md)
 * [sidebar](_sidebar.md)
 * [FAQs](faq.md)
 * [Getting Started](getting-started.md)
