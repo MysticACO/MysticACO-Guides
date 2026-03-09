@@ -1,4 +1,4 @@
-# 🔮 How It Works
+# Welcome
 
 ![](https://github.com/user-attachments/assets/f2731a3e-1481-4f7f-a844-e477f7ad5b82)
 
