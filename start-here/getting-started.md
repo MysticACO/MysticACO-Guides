@@ -43,5 +43,5 @@ If your entry successfully checks out, you will receive a confirmation and will 
 
 **IMAP Password**
 
-* Your IMAP Email + App Password: `chefson@gmail.com: asdq jgms xhan sdow`
+* Your IMAP Email + App Password: `chefson@gmail.com:asdq jgms xhan sdow`
 
