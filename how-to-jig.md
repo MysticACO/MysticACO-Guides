@@ -1,7 +1,5 @@
 # How To Jig
 
-## **What Is Jigging?**
-
 Jigging is one of the most important techniques when aiming to secure multiple orders. It involves slightly modifying your billing or shipping details so they appear unique to retailers, while still ensuring your packages arrive at the correct destination. Below is an extensive guide on how to jig your profiles.
 
 {% hint style="info" icon="lightbulb" %}
