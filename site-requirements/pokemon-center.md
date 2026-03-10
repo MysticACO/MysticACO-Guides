@@ -1,26 +1,17 @@
+---
+description: Profile requirements for Pokemon Center
+---
+
 # Pokemon Center
 
-## Step-by-step guide
+## **Requirements**
 
-Stepper blocks let you break down a tutorial or guide into separate, but clearly linked steps. Each step can contain multiple different blocks, allowing you to add detailed information.
+* Each submission must use unique info (Email, Payment, Address, Phone #)
+* Pokemon Center is very good at linking checkouts so it is crucial you Jig to the best of your ability&#x20;
+* Use as many **Hard Cards** you have available. VCC's are more prone to declines.&#x20;
+* At the time of publication, Capital One ENO VCC's have been tested and are accepted. [Click Here](../Virtual-cards.md)
 
-{% stepper %}
-{% step %}
-### Add a stepper block
-
-To add a stepper block, hit `/` on an empty line or click the `+` on the left of the editor and select **Stepper** from the insert menu.
-{% endstep %}
-
-{% step %}
-### Add some content
-
-Once you’ve inserted your stepper block, you can start adding content to it — including code blocks, drawings, images and much more.
-{% endstep %}
-
-{% step %}
-### Add more steps
-
-Click the `+` below the step numbers or hit `Enter` twice to add another step to your stepper block. You can remove or change the style of the step header or step body if you wish.
-{% endstep %}
-{% endstepper %}
+{% hint style="warning" %}
+Accounts are **NOT REQUIRED** as we use **Guest Checkout**
+{% endhint %}
 

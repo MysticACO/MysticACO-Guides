@@ -1,23 +1,23 @@
 # How To Pay PAS
 
-### **Pay After Success Fee**
+## **Pay After Success Fee**
 
 When a checkout is successful, you’ll be responsible for paying the Pay After Success (PAS) Fee. You will not be charged if we do not hit for you!
 
-#### **Notification Of Success**
+## **Notification Of Success**
 
 * Successful checkouts are announced in the Checkout Channel.
 * If your profile hits, you’ll see confirmation of the item(s) secured, quantity, and retailer.
 
-#### **Timeframe To Pay**
+## **Timeframe To Pay**
 
-* You have 48 hours from the time of confirmation to complete your PAS payment.
+* You have **72 hours** from the time of confirmation to complete your PAS payment.
 
-{% hint style="info" %}
+{% hint style="warning" icon="exclamation" %}
 Failure to pay within this timeframe may result in cancellation of your order and a permanent ban from all future ACO services.
 {% endhint %}
 
-### **How To Pay**
+## **How To Pay**
 
 **a) Staff Collection**
 
@@ -29,20 +29,20 @@ Failure to pay within this timeframe may result in cancellation of your order an
 * You may also complete payment through the Order Bot.
 * The bot will prompt you with all necessary details, including:
 
-> **Item name, Quantity secured, Retailer information, Total PAS fee owed**
+> **Item name, Quantity secured, Retailer information, Total PAS Fee owed**
 
 {% hint style="info" %}
 Follow the prompts to complete your payment securely.
 {% endhint %}
 
-### **Payment Methods**
+## **Payment Methods**
 
 * Zelle
 * Cash App
 * Venmo
 * PayPal (Friends & Family only, unless stated otherwise)
 
-### **Important Notes**
+## **Important Notes**
 
 * Payments must be made in full before your order is considered complete.
 * If you have any payment issues or believe there has been an error, please open a ticket immediately.
