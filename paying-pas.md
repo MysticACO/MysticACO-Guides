@@ -1,7 +1,5 @@
 # How To Pay PAS
 
-## **Pay After Success Fee**
-
 When a checkout is successful, you’ll be responsible for paying the Pay After Success (PAS) Fee. You will not be charged if we do not hit for you!
 
 ## **Notification Of Success**
