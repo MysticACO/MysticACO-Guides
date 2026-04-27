@@ -23,6 +23,7 @@
 * [Walmart](site-requirements/walmart.md)
 * [Pokemon Center](site-requirements/pokemon-center.md)
 * [Sams Club](site-requirements/sams-club.md)
+* [Amazon](site-requirements/amazon.md)
 
 ## Links
 
