@@ -11,15 +11,15 @@
 
 ### **Step 1:** Locate the **Account** tab at the top
 
-<div align="left"><figure><img src="https://help.refractbot.com/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2Fjdmk3RduT9OdU2B3zFmG%2Fblobs%2FW24wOVk59JiiNIdpcnR4%2Fimage.png&#x26;width=300&#x26;dpr=1&#x26;quality=100&#x26;sign=6c0c7eed&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://images-ext-1.discordapp.net/external/WBXnuEyl8j4h3IyhK3ATNW5bCzNvNq00nivl0k5X5Vo/https/content.gitbook.com/content/jdmk3RduT9OdU2B3zFmG/blobs/W24wOVk59JiiNIdpcnR4/image.png?format=webp&#x26;quality=lossless&#x26;width=567&#x26;height=415" alt=""><figcaption></figcaption></figure></div>
 
 ### Step 2: Click **Login and Security**
 
-<div align="left"><figure><img src="https://help.refractbot.com/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2Fjdmk3RduT9OdU2B3zFmG%2Fblobs%2FPEjtlgHlHa1p3OqfDKB7%2Fimage.png&#x26;width=300&#x26;dpr=1&#x26;quality=100&#x26;sign=c9308928&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure></div>
+<figure><img src="https://images-ext-1.discordapp.net/external/5myOoJs508MVYNopU9RKyTYUky6KTq8PZWh8fFUtuOc/https/content.gitbook.com/content/jdmk3RduT9OdU2B3zFmG/blobs/PEjtlgHlHa1p3OqfDKB7/image.png?format=webp&#x26;quality=lossless&#x26;width=1002&#x26;height=410" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Click **Turn On** for the **2-step verification row**
 
-<div align="left"><figure><img src="https://help.refractbot.com/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2Fjdmk3RduT9OdU2B3zFmG%2Fblobs%2FyIana7lNlgdA5GSJiBrt%2Fimage.png&#x26;width=300&#x26;dpr=1&#x26;quality=100&#x26;sign=10171f44&#x26;sv=2" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://images-ext-1.discordapp.net/external/Br-BWRp1lT1AWrxDdbscEGEWsdjIb0VnzRbQUzQ7OGw/https/content.gitbook.com/content/jdmk3RduT9OdU2B3zFmG/blobs/yIana7lNlgdA5GSJiBrt/image.png?format=webp&#x26;quality=lossless&#x26;width=606&#x26;height=670" alt="" width="563"><figcaption></figcaption></figure></div>
 
 * Then on the next page, click **Get Started**
 
