@@ -6,6 +6,7 @@ description: Profile requirements for Pokemon Center
 
 ## **Requirements**
 
+* Pokemon Center does not require accounts. You only need to create **Checkout Profiles**.
 * Each submission must use unique info (Email, Payment, Address, Phone #)
 * Pokemon Center is very good at linking checkouts so it is crucial you Jig to the best of your ability&#x20;
 * Use as many **Hard Cards** you have available. VCC's are more prone to declines.&#x20;

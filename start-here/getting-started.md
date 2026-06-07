@@ -5,13 +5,13 @@
 **Follow the steps below to submit your information correctly for Auto Checkout (ACO).**
 
 1. Go to the **ACO section** in the Discord server.
-2. Find the form for the release you want to enter.
-3. Carefully fill out the form using your profile information.
-4. Double-check all fields before submitting.
+2. From here, there will be detailed guides on how to navigate through our dashboard.
+3. Log in to our dashboard and select **Profiles** on the sidebar.
+4. Submit your information for each desired website.
 5. Relax while our system attempts checkout on drop day.
 
 {% hint style="info" icon="check" %}
-If your entry successfully checks out, you will receive a confirmation and will have **72 hours to complete your Pay After Success (PAS) payment**.
+If your entry successfully checks out, you will receive a confirmation and will have **48 hours to complete your Pay After Success (PAS) payment**.
 {% endhint %}
 
 ## **Common ACO Submission Mistakes**
@@ -23,7 +23,7 @@ If your entry successfully checks out, you will receive a confirmation and will 
 
 **Account Login**
 
-* Email + Password of Account: `chefson@gmail.com:Mystic123`
+* Each checkout profile must have a corresponding account (the email must match on both)
 * Triple-check that your account credentials are valid before submitting
 
 **State**&#x20;
@@ -39,9 +39,5 @@ If your entry successfully checks out, you will receive a confirmation and will 
 **Phone Number**
 
 * Correct Format: `9012039123`
-* Incorrect Submission: 1+9012039123 / 901-203-9123
-
-**IMAP Password**
-
-* Your IMAP Email + App Password: `chefson@gmail.com:asdq jgms xhan sdow`
+* Incorrect Submission: 1+9012039123 / 901-203-9122
 

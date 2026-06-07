@@ -38,13 +38,12 @@ If IMAP is not configured correctly, we will NOT receive your verification codes
 #### Recommended (Best Success Rate)
 
 * Gmail
-* Outlook / Hotmail
 * iCloud HME
 * Yahoo
-* Catchall domains
 
 #### Not Supported
 
+* Outlooks
 * .edu school emails
 * Temporary emails
 * Forwarding services
@@ -71,21 +70,6 @@ If IMAP is not configured correctly, we will NOT receive your verification codes
 2. Enable **Two-Factor Authentication**
 3. **Security** → **App-Specific Passwords** → **Generate**
 
-### **AOL Setup**
-
-1. [https://login.aol.com/myaccount/security/](https://login.aol.com/myaccount/security/)
-2. Generate **App Password**
-
-### **Outlook / Hotmail Setup**
-
-1.  Go to your Microsoft account security page
-
-    [https://account.microsoft.com/security](https://account.microsoft.com/security)
-2. Enable **Two-Step Verification** if it is not already enabled.
-3. Once 2FA is enabled, navigate to: **Security** → **Advanced Security Options**
-4. Scroll down to **App Passwords**.
-5. Click **Create a new app password**.
-
 ***
 
 ## **IMAP Troubleshooting**
@@ -100,4 +84,3 @@ If IMAP is not configured correctly, we will NOT receive your verification codes
 
 * IMAP test passed
 * Correct app password submitted
-* IMAP is submitted in **Email:App Password** format

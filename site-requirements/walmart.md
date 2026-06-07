@@ -7,6 +7,7 @@ description: Profile requirements for Walmart
 ## **Requirements**
 
 * Walmart Accounts are required **(Account Username + Account Password)**
+* Each Walmart **Checkout Profile** email must have a matching **Account** within the **Accounts Tab.**
 * Accounts with order history are preferred. New accounts are accepted, but you risk more cancellations with fresh accounts.&#x20;
 * Each submission must have unique addresses or Jigged variations [Click Here](../how-to-jig.md)
 * IMAP **IS REQUIRED.** Due to the vast number of members we run, IMAP will now be required in order to get everyone logged in within a timely manner. [Click Here](../imap.md)

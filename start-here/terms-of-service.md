@@ -18,10 +18,10 @@ Mystic ACO reserves the right to update or modify these Terms & Conditions at an
 ## **Pay After Success (PAS)**
 
 * Mystic ACO operates under a Pay-After-Success model. You will only be charged the PAS Fee if we successfully purchase the requested item on your behalf.
-* If your checkout is successful, you will be contacted within 24 hours to arrange payment of the PAS Fee. Payment must be completed within 72 hours of confirmation.
-* Failure to pay within the 72-hour window will result in the cancellation of your order and a permanent ban from all future ACO services.
+* If your checkout is successful, you will be contacted within 24 hours to arrange payment of the PAS Fee. Payment must be completed within 48 hours of confirmation.
+* Failure to pay within the 48-hour window will result in the cancellation of your order and a permanent ban from all future ACO services.
 * If a retailer cancels your order, you must provide proof of cancellation (e.g., the cancellation email) to receive a refund of your PAS Fee.
-* If you personally contact the retailer to cancel your order, no refund will be issued.
+* If you personally contact the retailer to cancel your order, no refund will be issued. You are still obligated to pay the PAS Fee if you manually cancel the order.
 * Once an order has shipped, the PAS Fee is non-refundable. Any further issues must be resolved directly with the retailer.
 
 ## **Liability**

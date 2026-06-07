@@ -9,7 +9,7 @@ When a checkout is successful, you’ll be responsible for paying the Pay After 
 
 ## **Timeframe To Pay**
 
-* You have **72 hours** from the time of confirmation to complete your PAS payment.
+* You have **48 hours** from the time of confirmation to complete your PAS payment.
 
 {% hint style="warning" icon="exclamation" %}
 Failure to pay within this timeframe may result in cancellation of your order and a permanent ban from all future ACO services.

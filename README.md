@@ -14,7 +14,7 @@ Once you submit your entry, your profile is prepared and queued for the release.
 
 Because many retailers use anti-bot protections and limited inventory systems, success is never guaranteed. However, using automated checkout significantly increases the chances of securing items compared to manual checkout attempts.
 
-If your entry is successful, the order will be placed using your provided payment method and shipping details. You will then receive confirmation and have **72 hours to complete the Pay After Success (PAS) payment** for the service.
+If your entry is successful, the order will be placed using your provided payment method and shipping details. You will then receive confirmation and have **48 hours to complete the Pay After Success (PAS) payment** for the service.
 
 {% hint style="warning" %}
 **If your entry is unsuccessful, no payment is required**
