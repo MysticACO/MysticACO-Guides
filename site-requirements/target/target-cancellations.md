@@ -65,3 +65,12 @@ In extreme cases, an account may become heavily flagged
 * Orders are cancelled instantly with Reseller Reason
 * Inability to successfully checkout manual
 * Repeated cancellations after changing Jigs / Payment Method
+
+***
+
+## **Test for Cancels**
+
+* To determine whether or not you need to tweak your profiles, place a test order on high-demand items such as Sports Cards using the same information that you provided on the dashboard. If it immediately cancels, you'll need to optimize your profile (swapping out cards or trying different jigs).&#x20;
+* If your order sticks and doesn't cancel immediately, your profile combination works. Try to replicate this across all of your profiles.
+* The best combinations to prevent Item Demand cancels are Target Red Cards, Hard Cards, and Debit cards. Utilize as many addresses as you can. &#x20;
+
