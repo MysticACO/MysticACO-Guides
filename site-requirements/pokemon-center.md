@@ -16,3 +16,13 @@ description: Profile requirements for Pokemon Center
 Accounts are **NOT REQUIRED** as we use **Guest Checkout**
 {% endhint %}
 
+***
+
+## Profile Recommendations
+
+* Utilize as many real addresses as you can
+* Utilize hard cards (physical cards)&#x20;
+* Mix of different VCCs (Robinhood Gold / Capital One ENO)
+* Try a mix of line 1 and line 2 jigs
+* Limit yourself to light jigs&#x20;
+* Use real emails (No Catchall domains)
